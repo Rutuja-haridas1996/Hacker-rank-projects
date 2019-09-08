@@ -1,0 +1,13 @@
+def compareTriplets(a, b):
+    
+    c=0
+    c1=0
+    for i,j in zip(a,b):
+        print(i,j)
+        if i>j:
+            c+=1
+            
+        elif (j>i):
+            #print(j)
+            c1+=1
+    return(c,c1)
